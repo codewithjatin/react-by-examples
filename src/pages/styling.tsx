@@ -9,7 +9,7 @@ import { Component, Component2 } from '@/components/examples/styling/component-l
 import InlineStyleComponent from '@/components/examples/styling/inline-style-component'
 
 export default function Styling() {
-    useSetHeading("Dashboard");
+    useSetHeading("Styling");
     return (
         <>
             <Head>
