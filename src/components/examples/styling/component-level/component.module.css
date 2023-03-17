@@ -1,0 +1,10 @@
+.header {
+    font-size: x-large;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.paragraph {
+    font-size: medium;
+    font-weight: 400;
+}
