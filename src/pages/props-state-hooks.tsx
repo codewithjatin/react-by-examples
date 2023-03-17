@@ -11,6 +11,7 @@ import Banner from '@/components/examples/props-state-hooks/banner'
 import SectionHeading from '@/components/shared/section-heading'
 import IconButton from '@/components/examples/props-state-hooks/icon-button'
 import { ArrowLongLeftIcon, ArrowLongRightIcon, ArrowUturnLeftIcon, HomeIcon } from '@heroicons/react/24/outline'
+import Students from '@/components/examples/props-state-hooks/students'
 
 export default function Page() {
     useSetHeading("Props, State and Hooks");
@@ -28,6 +29,8 @@ export default function Page() {
                 <IconButton><ArrowLongRightIcon className="w-8 h-8" /></IconButton>
                 <IconButton><ArrowUturnLeftIcon className="w-8 h-8" /></IconButton>
             </div>
+            <SectionHeading title="`key` prop example" className="mt-5" />
+            <Students />
         </>
     )
 }
